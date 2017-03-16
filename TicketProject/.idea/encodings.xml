@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/biglog/ticket/core/tree/Tree.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/biglog/ticket/core/tree/TreeNode.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/biglog/ticket/core/word2Vec/domain/Neuron.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/biglog/ticket/core/word2Vec/domain/WordNeuron.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/biglog/ticket/core/word2Vec/util/Haffman.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/biglog/ticket/core/word2Vec/util/WordKmeans.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/biglog/ticket/core/word2Vec/vec/Learn.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/biglog/ticket/core/word2Vec/vec/Word2VEC.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/com/biglog/ticket/web/controller/TicketController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources/idf.properties" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/view/index.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/bootstrap-dist" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/css/bootstrap.min.css" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/font-awesome" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/frontend_theme" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/img" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/js/ajaxfileupload.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/js/main/main.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/webapp/js/main/table.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/java/com/biglog/ticket/Word2VecTest.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/ticket.sql" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/test/resources/w2c" charset="UTF-8" />
+  </component>
+</project>

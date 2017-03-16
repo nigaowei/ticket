@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.biglog.ticket.web.dao.ReasonAndMeasureMapper">
+       <resultMap id="BaseResultMap" type="com.biglog.ticket.web.model.ReasonAndMeasure">
+
+              <result column="reasonClassification" property="reasonClassification" jdbcType="VARCHAR" />
+              <result column="reasonSubdivision" property="reasonSubdivision" jdbcType="VARCHAR" />
+              <result column="failureReason" property="failureReason" jdbcType="VARCHAR" />
+              <result column="processingMeasures" property="processingMeasures" jdbcType="VARCHAR"/>
+       </resultMap>
+       <!-- 插入 -->
+       <insert id="insert" parameterType="com.biglog.ticket.web.model.AlarmAndReason">
+              insert into reasonAndMeasure(reasonClassification,reasonSubdivision,failureReason,processingMeasures) values(#{reasonClassification,jdbcType=VARCHAR},#{reasonSubdivision,jdbcType=VARCHAR},#{failureReason,jdbcType=VARCHAR},#{processingMeasures,jdbcType=VARCHAR})
+       </insert>
+       <select id="get"  resultMap="BaseResultMap">
+              select * from reasonAndMeasure
+       </select>
+
+</mapper>
